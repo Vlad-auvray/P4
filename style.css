@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+    width: 100%;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -37,7 +41,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-}
+}   
 
 .bloc .container {
     padding-left: 0;
@@ -80,7 +84,7 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
+/*.bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -89,6 +93,7 @@ a:hover {
     left: 0;
     right: 0;
 }
+*/
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
@@ -364,8 +369,8 @@ a:hover {
 
 @media (min-width: 768px) {
     .site-navigation {
-        position: absolute;
-        top: 50%;
+        position: relative;
+        top: 30px;
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
@@ -771,15 +776,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #BD5723;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+   /* position: relative;*/
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #BD5723;
     color: #FFFFFF!important;
 }
 
