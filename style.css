@@ -682,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -707,15 +707,17 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 28px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -744,6 +746,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: black!important;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -771,9 +776,7 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
+
 
 .bgc-atomic-tangerine {
     background-color: #BD5723;
@@ -825,6 +828,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    width:100%;
 }
 
 .bg-presentation {
@@ -933,7 +937,7 @@ h4 {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
-        text-align: left;
+        text-align: center;
         padding-left: 15px;
         width: 100%;
     }
