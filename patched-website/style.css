@@ -1054,3 +1054,40 @@ h4 {
         text-align: center;
     }
 }
+
+.index-header {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.P4-titre{
+    color: #FFFFFF!important;
+    text-align: center;
+}
+
+.liens-sites{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.P4-texte {
+    color: #FFFFFF!important;
+    text-align: center;
+}
+
+.madeby {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #BD5723;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: small;
+}
