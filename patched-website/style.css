@@ -1026,6 +1026,16 @@ h4 {
         width: 180px;
         height: 320px;
     }
+.bg-banniere {
+    background-color:#333333 ;
+    background-image: none;
+}
+
+.bg-presentation {
+    background-color: #BD5723;
+    background-image: none;
+}
+
 }
 
 @media (max-width: 400px) {
