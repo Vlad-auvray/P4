@@ -83,16 +83,7 @@ a:hover {
     background: top no-repeat;
 }
 
-/*.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-*/
+
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
@@ -836,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
